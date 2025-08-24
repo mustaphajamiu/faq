@@ -1,0 +1,87 @@
+body{
+background-color: hsl(275, 100%, 97%);
+margin: 0px;
+}
+p{
+color:   hsl(292, 16%, 49%)
+}
+hr{
+border: 1px solid  hsl(275, 100%, 97%);
+}
+/* banner is the background image on the page,.banner & .bannersize are different class for the styling*/
+.banner{
+width: 1265px;
+height: 250;
+position: relative;
+}
+.bannersize{
+width: 1265px;
+height: 250px;
+object-fit: cover;
+}
+/*.body contains style for the text/border*/
+.body{
+font-family: "Work Sans", sans-serif;
+font-weight: 400;
+font-size: 15px;
+font-style: normal;
+margin-left: 375px;
+margin-right: 375px;
+margin-bottom: 40px;
+border: 1px solid hsl(0, 100%, 100%); 
+background-color:  hsl(0, 100%, 100%);
+border-radius: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+position: absolute;
+top: 150px;
+}
+/*.first and #first both are for styling the h1
+.second is for all h4*/
+.first{
+margin-left: 60px;
+}
+#first{
+font-weight: 700;
+}
+.second{
+font-weight: 600;
+}
+/*.starimg and .star are for styling the star image*/
+.starimg{
+width: 25px;
+}
+.star{
+position: absolute;
+left: 40px;
+top: 25px;
+}
+/*.minusimg and .minus are for styling the minus image*/
+.minusimg{
+width: 18px;
+}
+.minus{
+    position: absolute;
+left: 475px;
+top: 75px;
+}
+/*.plusimg and .plus1,.plus2,.plus3 are for styling all the plus image respectively*/
+.plusimg{
+    width: 18px;
+}
+.plus1{
+position: absolute;
+left: 475px;
+top: 218px;
+}
+.plus2{
+position: absolute;
+left: 475px;
+    top: 276px;
+}
+.plus3{
+    position: absolute;
+    left: 475px;
+    top: 398;
+}
