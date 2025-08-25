@@ -125,3 +125,29 @@ width: 18px;
 H4: hover {
 color: purple
 }
+<!-- Mobile responsiveness--> 
+
+@media (max-width: 375px) {
+  #first {
+    font-size: 1.5em;
+  }
+  .second {
+    font-size: 0.9em;
+  }
+
+  .icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon {
+    width: 14px;
+    height: 14px;
+  }
+
+}
+<!— This is to make the h4 tag change color when the curser is hovered on it -->
+
+H4: hover {
+color: purple
+}
