@@ -124,25 +124,3 @@ height: auto;
 .faq-item.expanded .minus-icon {
     display: block;
 }
-
-<!-- Mobile responsiveness--> 
-
-@media (max-width: 375px) {
-  #first {
-    font-size: 1.5em;
-  }
-  .second {
-    font-size: 0.9em;
-  }
-
-  .icons {
-    width: 20px;
-    height: 20px;
-  }
-
-  .icon {
-    width: 14px;
-    height: 14px;
-  }
-
-}
